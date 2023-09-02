@@ -1,10 +1,6 @@
 <template>
-    <div class="">
-        <h1>Homepage</h1>
-    </div>
+    <offcanvas/>
 </template>
-<script>
-export default {
-    name: "Home",
-};
+<script setup>
+import Offcanvas from "../components/Offcanvas.vue";
 </script>
